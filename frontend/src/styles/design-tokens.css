@@ -1,0 +1,57 @@
+/**
+ * Design Tokens - Match these with your Figma design system
+ * 
+ * When you get your Figma designs:
+ * 1. Extract colors from Figma (right-click color → Copy as CSS)
+ * 2. Extract typography (font families, sizes, weights)
+ * 3. Extract spacing values
+ * 4. Update this file to match
+ */
+
+:root {
+  /* Colors - Replace these with your Figma colors */
+  /* Current colors match Charlotte's Book Tinder design */
+  --color-primary: #000000;        /* Black buttons, primary actions */
+  --color-primary-hover: rgba(0, 0, 0, 0.9);
+  --color-secondary: #747bff;
+  --color-background: #ffffff;     /* White background */
+  --color-surface: #f9f9f9;       /* Light gray surfaces */
+  --color-text: #000000;          /* Black text */
+  --color-text-muted: #666666;    /* Gray text */
+  --color-text-light: #888888;    /* Lighter gray text */
+  --color-border: #e5e7eb;        /* Border gray */
+  
+  /* Typography - Match with Figma text styles */
+  --font-family-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+  
+  /* Spacing - Match with Figma spacing scale */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  
+  /* Border radius - Match with Figma */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  
+  /* Shadows - Match with Figma effects */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Light mode (if your design has it) */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-background: #ffffff;
+    --color-surface: #f9f9f9;
+    --color-text: #213547;
+    --color-text-muted: #666;
+  }
+}
