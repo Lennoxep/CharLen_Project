@@ -43,7 +43,7 @@ export default function App() {
 	return (
 		<div className="min-h-screen bg-white">
 			{/* Top bar */}
-			<header className="mx-auto flex w-full max-w-10xl items-center justify-between px-6 py-5">
+			<header className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-5">
 				<div className="text-lg font-semibold">📚 Book Tinder</div>
 				{/* sign-in button: placeholder for future auth flow */}
 				<button className="rounded-xl border px-4 py-2 text-sm hover:bg-gray-50">Sign in</button>
