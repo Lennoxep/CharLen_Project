@@ -1,9 +1,9 @@
+/* Import design tokens - must come before @tailwind directives */
+@import './styles/design-tokens.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Import design tokens - update these to match your Figma designs */
-@import './styles/design-tokens.css';
 
 /* Base styles - customize these based on your Figma design */
 body {

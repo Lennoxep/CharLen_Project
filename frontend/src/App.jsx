@@ -64,7 +64,7 @@ export default function App() {
 					<div className="mt-6 flex flex-col gap-3 sm:flex-row">
 						{/* Reset starts the demo run; View your likes toggles the liked-list panel */}
 						<button
-							className="rounded-2xl bg-black px-6 py-3 text-white hover:opacity-90"
+							className="rounded-2xl bg-blue-500 px-6 py-3 text-white hover:opacity-90"
 							onClick={reset}
 						>
 							Start swiping
